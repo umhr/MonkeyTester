@@ -1,0 +1,8 @@
+C:\Users\宗士\Documents\GitHub\MonkeyTester\MonkeyTester\MonkeyTester\bin\Release\MonkeyTester.exe.config
+C:\Users\宗士\Documents\GitHub\MonkeyTester\MonkeyTester\MonkeyTester\bin\Release\MonkeyTester.exe
+C:\Users\宗士\Documents\GitHub\MonkeyTester\MonkeyTester\MonkeyTester\bin\Release\MonkeyTester.pdb
+C:\Users\宗士\Documents\GitHub\MonkeyTester\MonkeyTester\MonkeyTester\obj\Release\MonkeyTester.Form1.resources
+C:\Users\宗士\Documents\GitHub\MonkeyTester\MonkeyTester\MonkeyTester\obj\Release\MonkeyTester.Properties.Resources.resources
+C:\Users\宗士\Documents\GitHub\MonkeyTester\MonkeyTester\MonkeyTester\obj\Release\MonkeyTester.csproj.GenerateResource.Cache
+C:\Users\宗士\Documents\GitHub\MonkeyTester\MonkeyTester\MonkeyTester\obj\Release\MonkeyTester.exe
+C:\Users\宗士\Documents\GitHub\MonkeyTester\MonkeyTester\MonkeyTester\obj\Release\MonkeyTester.pdb
