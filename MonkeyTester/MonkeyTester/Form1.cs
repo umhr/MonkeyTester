@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
 
 namespace MonkeyTester
 {
@@ -17,11 +11,12 @@ namespace MonkeyTester
         {
             InitializeComponent();
 
+            // 参考
             // http://dobon.net/vb/dotnet/system/cursorposition.html
             //        System.Windows.Forms.Cursor.Position = this.PointToScreen(new System.Drawing.Point(0, 0));
+            // http://homepage2.nifty.com/nonnon/SoftSample/CS.NET/SampleSendInput.html
+            // マウスイベント(mouse_eventの引数と同様のデータ)
         }
-        // http://homepage2.nifty.com/nonnon/SoftSample/CS.NET/SampleSendInput.html
-        // マウスイベント(mouse_eventの引数と同様のデータ)
         [StructLayout(LayoutKind.Sequential)]
         private struct MOUSEINPUT
         {
@@ -256,12 +251,22 @@ namespace MonkeyTester
 
             webBrowser1.Width = this.Width - 120;
             webBrowser1.Height = this.Height - webBrowser1.Location.Y - 38;
-            comboBox1.Width = webBrowser1.Width - comboBox1.Location.Y;
+            comboBox1.Width = webBrowser1.Width - comboBox1.Location.X;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             Form1_Resize(null, null);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoBack();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Refresh();
         }
 
 
